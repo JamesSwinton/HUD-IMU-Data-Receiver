@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+      android:id="@+id/card_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:elevation="8dp"
+      android:layout_margin="4dp"
+      app:cardCornerRadius="8dp">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/accelerometer_data"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Accelerometer: X: 0.545 | Y: 0.43534 | Z: 0.4543"/>
+
+        <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/gyro_data"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Accelerometer: X: 0.545 | Y: 0.43534 | Z: 0.4543"/>
+
+        <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/mag_data"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Accelerometer: X: 0.545 | Y: 0.43534 | Z: 0.4543"/>
+
+        <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/quart_data"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Accelerometer: X: 0.545 | Y: 0.43534 | Z: 0.4543"/>
+
+        <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/temp_data"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Accelerometer: X: 0.545 | Y: 0.43534 | Z: 0.4543"/>
+
+      </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

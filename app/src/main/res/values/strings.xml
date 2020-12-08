@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">IMUDataReceiver</string>
+
+  <!-- Adapter Strings -->
+  <string name="accelerometer_data"><b>Accelerometer</b>: X: %1$f | Y: %2$f | Z: %3$f</string>
+  <string name="gyroscope_data">Gyroscope: X: %1$f | Y: %2$f | Z: %3$f</string>
+  <string name="magnetometer_data">Magnetometer: X: %1$f | Y: %2$f | Z: %3$f</string>
+  <string name="quaternion_vector_data">Quaternion Vector: X: %1$f | Y: %2$f | Z: %3$f</string>
+  <string name="temp_data">Temp: %1$f</string>
+</resources>
